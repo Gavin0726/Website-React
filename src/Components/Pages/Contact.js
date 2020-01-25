@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {withFormik} from 'formik';
 import * as Yup from 'yup'
 
-import Field from '../Common/Field';
+import Field from './Field';
 import Header from '../Common/Header';
 
 const fields = {

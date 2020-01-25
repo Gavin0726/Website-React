@@ -2,11 +2,10 @@ import React, { Component } from 'react';
 import Header from '../Common/Header';
 
 import HomeItem from './HomeItem';
-import Portfolio from '../Common/Portfolio';
-import Team from '../Common/Team';
 
 
-const services = [
+
+const home = [
     {title: 'E-Commerce',description:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit', icon:'fas fa-shopping-cart fa-stack-1x fa-inverse'},
     {title: 'Responsive Design',description:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.', icon:'fas fa-laptop fa-stack-1x fa-inverse'},
     {title: 'Web Security',description:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.', icon:'fas fa-lock fa-stack-1x fa-inverse'}
@@ -18,9 +17,9 @@ class Home extends Component {
         super(props);
         this.state={
             title: "this is Home",
-            subtitle:"You are a beatiful girl",
-            buttonText:"Love me",
-            link:"/about",
+            subtitle:"START YOUR BUSINESS EDUCATION",
+            buttonText:"APPLY NOW",
+            link:"/",
             showButton:true,
             image:"url('img/header.jpg')"
         }
@@ -47,8 +46,8 @@ class Home extends Component {
                             </div>
                         </div>
                         <div className="row text-center">
-                            {services.map((service,index) => {
-                                return <HomeItem {...service} key={index}/>
+                            {home.map((home,index) => {
+                                return <HomeItem {...home} key={index}/>
                             })}
                         </div>
                     </div>
