@@ -3,9 +3,9 @@ import PageWrapper from './Components/PageWrapper';
 
 import {
   BrowserRouter as Router,
-    Route,
-    Switch,
-  } from "react-router-dom";
+  Route,
+  Switch,
+} from "react-router-dom";
 
 //Pages
 import Home from './Components/Pages/Home';
@@ -22,33 +22,34 @@ class App extends Component {
 
     return (
       <div>
-      <Router>
-      <PageWrapper>
+        <Router>
+          <PageWrapper>
 
-        <Switch>
+            <Switch>
 
-        <Route path="/Home">
-            <Home />
-          </Route>
-          <Route path="/Course">
-              <Course />
-            </Route>
-            <Route path="/About">
+              <Route path="/Home">
+                <Home />
+              </Route>
+              <Route path="/Course">
+                <Course />
+              </Route>
+              <Route path="/About">
                 <About />
               </Route>
-        <Route path="/PreEnrolment">
-            <PreEnrolment />
-          </Route>
-          <Route path="/contact">
-            <Contact />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
-        </Switch>
+              <Route path="/PreEnrolment">
+                <PreEnrolment />
+              </Route>
+              <Route path="/contact">
+                <Contact />
+              </Route>
+              <Route path="/">
+                <Home />
+              </Route>
+            </Switch>
           </PageWrapper>
-      </Router>
-      <Footer/>
+        </Router>
+     
+        <Footer />
       </div>
     );
   }

@@ -23,7 +23,7 @@ class Course extends Component {
           buttonText:"JIng Love me",
           link:"/about",
           showButton:true,
-          image:"url('img/about.jpg')"
+          image:"url('img/course.png')"
       }
   }
     render() {

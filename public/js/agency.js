@@ -1,5 +1,7 @@
-(function($) {
-  "use strict"; // Start of use strict
+
+ 
+$(document).ready(function () {
+
 
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
@@ -14,7 +16,6 @@
       }
     }
   });
-
   // Closes responsive menu when a scroll trigger link is clicked
   $('.js-scroll-trigger').click(function() {
     $('.navbar-collapse').collapse('hide');
@@ -39,4 +40,4 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
-})(jQuery); // End of use strict
+});
