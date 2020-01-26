@@ -23,12 +23,12 @@ class Contact extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            title: "this is about",
-            subtitle: "You are a beatiful girl",
+            title: "",
+            subtitle: "Get in touch with us for more information",
             buttonText: "JIng Love me",
             link: "/about",
-            showButton: true,
-            image: "url('img/about.jpg')"
+            showButton: false,
+            image: "url('img/header-bg.jpg')"
         }
     }
     render() {
@@ -49,7 +49,7 @@ class Contact extends Component {
                         <div className="row">
                             <div className="col-lg-12 text-center">
                                 <h2 className="section-heading text-uppercase">Contact Us</h2>
-                                <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+
                             </div>
                         </div>
                         <div className="row">

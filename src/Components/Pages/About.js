@@ -5,11 +5,11 @@ class About extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            title: "this is about",
-            subtitle: "You are a beatiful girl",
-            buttonText: "JIng Love me",
+            title: "",
+            subtitle: "We specialises in Business",
+            buttonText: "",
             link: "/about",
-            showButton: true,
+            showButton: false,
             image: "url('img/about.jpg')"
         }
     }
@@ -29,18 +29,33 @@ class About extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12 text-center">
-                                <h2 className="section-heading text-uppercase">Services</h2>
-                                <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                                <h2 className="section-heading text-uppercase"></h2>
+                                <h3 className="section-subheading text-muted">We offer first-rate courses leading to Diplomas and Advanced Diplomas.</h3>
                             </div>
                         </div>
-                        <div className="row text-center">
-                            <div className="col-md-4">
-                                <span className="fa-stack fa-4x">
-                                    <i className="fas fa-circle fa-stack-2x text-primary"></i>
-                                    <i className="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
-                                </span>
-                                <h4 className="service-heading">E-Commerce</h4>
-                                <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit</p>
+                        <div className="row ">
+                            <div className="col-md-6">
+                            <h4 className="service-heading ">About Our College</h4>
+                              <p className="text-muted text-left">Founded in 2012, Berkley Business Institute (BBI) is a leading Registered Training Organisation (RTO) under the Times Education Group. We specialise in Business offering first-rate courses leading to Diplomas and Advanced Diplomas.
+
+<p className="text-muted">Located in the heart of Sydney, BBI’s campus gives its students unparalleled access to famous attractions, restaurants, beaches, parks, museums and countless other cultural experiences. We enrol students from all over the world, so we understand that experiencing a new culture is just one of the many possible benefits of studying at BBI. Our teachers and staff are dedicated to providing you with the best possible educational experience whilst in Sydney.</p>
+</p>
+                            </div>
+                              <div className="col-md-6">
+                            <img className="img-fluid" src="img/about/about1.jpg" alt="" />
+                            </div>
+                        <div className="row ">
+
+                            <div className="col-md-6">
+                                <img className="img-fluid" src="img/about/about2.jpg" alt="" />
+                            </div>
+                            <div className="col-md-6">
+                                <h4 className="service-heading text-left">About Our facilities</h4>
+                                  <p className="text-muted text-left">Located near World Square shopping centre, Berkeley Business Institutes boasts a newly renovated modern campus. Students can easily access the campus by train, bus, or light rail. We offer state-of-the-art facilities with a brand new library, student lounge, kitchen, classrooms, etc.</p>
+<p className="text-muted text-left">
+Our library offers a wide range of reference texts and computers for self-study. Students can also choose to hang out in the student lounge to eat or relax with friends in between classes. Our kitchen is fully equipped with microwaves and a vending machine. Wifi is also offered in all areas of the campus.</p>
+                            </div>
+
                             </div>
                         </div>
                     </div>

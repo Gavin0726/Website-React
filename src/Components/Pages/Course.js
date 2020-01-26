@@ -18,7 +18,7 @@ const Courses = [
         image: 'img/course/course-5.jpg',
         description: 'This qualification is suitable for those who use well-developed marketing and communication skills and a broad knowledge base in a wide variety of contexts.'
     },
-   
+
     {
         herf: '#CourseModal2',
         title: 'Diploma of Business Administration',
@@ -37,7 +37,7 @@ const Courses = [
         image: 'img/course/course-1.jpg',
         description: 'This qualification reflects the role of individuals who use well-developed administrative skills  base in a wide variety of administrative contexts.'
     },
-    
+
     {
         herf: '#CourseModal6',
         title: 'Advanced Diploma of Program Management',
@@ -73,8 +73,8 @@ class Course extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12 text-center">
-                                <h2 className="section-heading text-uppercase">Course</h2>
-                                <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                                <h2 className="section-heading text-uppercase">Business Course We Offer</h2>
+                                <h3 className="section-subheading text-muted">Find out more about each course.</h3>
                             </div>
                         </div>
                         <div className="row">
