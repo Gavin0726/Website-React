@@ -10,7 +10,7 @@ class About extends Component {
             buttonText: "",
             link: "/about",
             showButton: false,
-            image: "url('img/about1.jpg')"
+            image: "url('img/header-bg.jpg')"
         }
     }
 

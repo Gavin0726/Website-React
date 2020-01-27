@@ -28,7 +28,7 @@ class Contact extends Component {
             buttonText: "JIng Love me",
             link: "/about",
             showButton: false,
-            image: "url('img/header-bg.jpg')"
+            image: "url('img/about1.jpg')"
         }
     }
     render() {
